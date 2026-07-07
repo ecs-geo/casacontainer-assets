@@ -23,7 +23,13 @@
 <meta name="twitter:description" content="Prontos e instalados em semanas, em BH e região. A partir de R$ 59.900.">
 <meta name="twitter:image" content="https://raw.githubusercontent.com/ecs-geo/casacontainer-assets/main/04-prazo-entrega/slide-1.jpg">
 <script type="application/ld+json">{"@context":"https://schema.org","@type":"HomeAndConstructionBusiness","name":"Casa Container BH","description":"Casas e escritórios de container de alto padrão, sob medida, em Belo Horizonte e região. Prontos e instalados em semanas.","url":"https://ecs-geo.github.io/casacontainer-assets/","image":"https://raw.githubusercontent.com/ecs-geo/casacontainer-assets/main/04-prazo-entrega/slide-1.jpg","telephone":"+5531991612315","priceRange":"R$ 59.900+","areaServed":[{"@type":"City","name":"Belo Horizonte"},{"@type":"City","name":"Contagem"},{"@type":"City","name":"Betim"},{"@type":"City","name":"Nova Lima"},{"@type":"City","name":"Ribeirão das Neves"}],"address":{"@type":"PostalAddress","addressLocality":"Belo Horizonte","addressRegion":"MG","addressCountry":"BR"},"sameAs":["https://www.instagram.com/casacontainerbh/"],"contactPoint":{"@type":"ContactPoint","telephone":"+5531991612315","contactType":"sales","areaServed":"BR","availableLanguage":"Portuguese"}}</script>
-<!--PIXEL_SLOT-->
+<!-- Meta Pixel Code -->
+<script>
+!function(f,b,e,v,n,t,s){if(f.fbq)return;n=f.fbq=function(){n.callMethod?n.callMethod.apply(n,arguments):n.queue.push(arguments)};if(!f._fbq)f._fbq=n;n.push=n;n.loaded=!0;n.version='2.0';n.queue=[];t=b.createElement(e);t.async=!0;t.src=v;s=b.getElementsByTagName(e)[0];s.parentNode.insertBefore(t,s)}(window,document,'script','https://connect.facebook.net/en_US/fbevents.js');
+fbq('init','1326352709583668');fbq('track','PageView');
+</script>
+<noscript><img height="1" width="1" style="display:none" src="https://www.facebook.com/tr?id=1326352709583668&ev=PageView&noscript=1"/></noscript>
+<!-- End Meta Pixel Code -->
 </head>
 <body>
 <!--SEO_HEAD_END-->
@@ -287,5 +293,18 @@
 })();
 </script>
 </div>
+<script>
+(function(){
+  function fb(ev){ try{ if(window.fbq) fbq('track', ev); }catch(e){} }
+  // clique em qualquer link de WhatsApp = Contact
+  document.addEventListener('click', function(e){
+    var a = e.target.closest('a[href*="wa.me"]');
+    if(a) fb('Contact');
+  }, true);
+  // envio do formulário de proposta = Lead
+  var f = document.getElementById('lead-form');
+  if(f) f.addEventListener('submit', function(){ fb('Lead'); });
+})();
+</script>
 </body>
 </html>
