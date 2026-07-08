@@ -30,6 +30,15 @@ fbq('init','1326352709583668');fbq('track','PageView');
 </script>
 <noscript><img height="1" width="1" style="display:none" src="https://www.facebook.com/tr?id=1326352709583668&ev=PageView&noscript=1"/></noscript>
 <!-- End Meta Pixel Code -->
+<!-- Google tag (gtag.js) -->
+<script async src="https://www.googletagmanager.com/gtag/js?id=AW-18306904659"></script>
+<script>
+window.dataLayer = window.dataLayer || [];
+function gtag(){dataLayer.push(arguments);}
+gtag('js', new Date());
+gtag('config', 'AW-18306904659');
+</script>
+<!-- End Google tag -->
 </head>
 <body>
 <!--SEO_HEAD_END-->
@@ -293,6 +302,19 @@ fbq('init','1326352709583668');fbq('track','PageView');
 })();
 </script>
 </div>
+<script>
+(function(){
+  function fb(ev){ try{ if(window.fbq) fbq('track', ev); }catch(e){} }
+  // clique em qualquer link de WhatsApp = Contact
+  document.addEventListener('click', function(e){
+    var a = e.target.closest('a[href*="wa.me"]');
+    if(a) fb('Contact');
+  }, true);
+  // envio do formulário de proposta = Lead
+  var f = document.getElementById('lead-form');
+  if(f) f.addEventListener('submit', function(){ fb('Lead'); });
+})();
+</script>
 <script>
 (function(){
   function fb(ev){ try{ if(window.fbq) fbq('track', ev); }catch(e){} }
